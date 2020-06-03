@@ -1,0 +1,1262 @@
+Fetch instruction 0x10000517 from address 0x0 ## 	
+
+Decode: Operation is auipc
+ Upper immediate: 268435456
+ Return register x10
+
+Execute auipc ->add 0 and 268435456
+Memory: No memory operation 
+Writeback: 268435456 to x10
+Number of clock cycles= 1
+
+Fetch instruction 0x00052503 from address 0x4 ## 	
+
+Decode: Operation is lw
+First operand: x10
+Immediate value:0
+Destination register: x10
+Read registers x10 =268435456
+Execute lw EA -> add 268435456 and 0
+Memory: lw in x10 from memory address 0
+Writeback: 7 to x10
+Number of clock cycles= 2
+
+Fetch instruction 0x00158593 from address 0x8 ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:1
+Destination register: x11
+Read registers x11 =0
+Execute addi 0 and 1
+Memory: No memory operation 
+Writeback: 1 to x11
+Number of clock cycles= 3
+
+Fetch instruction 0x008000EF from address 0xc ## 	
+
+Decode: Operation is jal
+ Jump: 8
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 16 and pc: 20
+Writeback: 16 to x1
+Number of clock cycles= 4
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440455
+Execute addi 268440455 and -8
+Memory: No memory operation 
+Writeback: 268440447 to x2
+Number of clock cycles= 5
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440447
+Execute sw EA-> add 268440447 and 4
+In memory location 0x10001383 strored 0x10
+In memory location 0x10001383 strored 0x00
+In memory location 0x10001383 strored 0x00
+In memory location 0x10001383 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 6
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440447
+Execute sw EA-> add 268440447 and 0
+In memory location 0x1000137f strored 0x07
+In memory location 0x1000137f strored 0x00
+In memory location 0x1000137f strored 0x00
+In memory location 0x1000137f strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 7
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =7
+Execute addi 7 and -1
+Memory: No memory operation 
+Writeback: 6 to x5
+Number of clock cycles= 8
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 9
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =7
+Execute addi 7 and -1
+Memory: No memory operation 
+Writeback: 6 to x10
+Number of clock cycles= 10
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 11
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440447
+Execute addi 268440447 and -8
+Memory: No memory operation 
+Writeback: 268440439 to x2
+Number of clock cycles= 12
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440439
+Execute sw EA-> add 268440439 and 4
+In memory location 0x1000137b strored 0x3c
+In memory location 0x1000137b strored 0x00
+In memory location 0x1000137b strored 0x00
+In memory location 0x1000137b strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 13
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440439
+Execute sw EA-> add 268440439 and 0
+In memory location 0x10001377 strored 0x06
+In memory location 0x10001377 strored 0x00
+In memory location 0x10001377 strored 0x00
+In memory location 0x10001377 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 14
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =6
+Execute addi 6 and -1
+Memory: No memory operation 
+Writeback: 5 to x5
+Number of clock cycles= 15
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 16
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =6
+Execute addi 6 and -1
+Memory: No memory operation 
+Writeback: 5 to x10
+Number of clock cycles= 17
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 18
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440439
+Execute addi 268440439 and -8
+Memory: No memory operation 
+Writeback: 268440431 to x2
+Number of clock cycles= 19
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440431
+Execute sw EA-> add 268440431 and 4
+In memory location 0x10001373 strored 0x3c
+In memory location 0x10001373 strored 0x00
+In memory location 0x10001373 strored 0x00
+In memory location 0x10001373 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 20
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440431
+Execute sw EA-> add 268440431 and 0
+In memory location 0x1000136f strored 0x05
+In memory location 0x1000136f strored 0x00
+In memory location 0x1000136f strored 0x00
+In memory location 0x1000136f strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 21
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =5
+Execute addi 5 and -1
+Memory: No memory operation 
+Writeback: 4 to x5
+Number of clock cycles= 22
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 23
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =5
+Execute addi 5 and -1
+Memory: No memory operation 
+Writeback: 4 to x10
+Number of clock cycles= 24
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 25
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440431
+Execute addi 268440431 and -8
+Memory: No memory operation 
+Writeback: 268440423 to x2
+Number of clock cycles= 26
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440423
+Execute sw EA-> add 268440423 and 4
+In memory location 0x1000136b strored 0x3c
+In memory location 0x1000136b strored 0x00
+In memory location 0x1000136b strored 0x00
+In memory location 0x1000136b strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 27
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440423
+Execute sw EA-> add 268440423 and 0
+In memory location 0x10001367 strored 0x04
+In memory location 0x10001367 strored 0x00
+In memory location 0x10001367 strored 0x00
+In memory location 0x10001367 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 28
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =4
+Execute addi 4 and -1
+Memory: No memory operation 
+Writeback: 3 to x5
+Number of clock cycles= 29
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 30
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =4
+Execute addi 4 and -1
+Memory: No memory operation 
+Writeback: 3 to x10
+Number of clock cycles= 31
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 32
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440423
+Execute addi 268440423 and -8
+Memory: No memory operation 
+Writeback: 268440415 to x2
+Number of clock cycles= 33
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440415
+Execute sw EA-> add 268440415 and 4
+In memory location 0x10001363 strored 0x3c
+In memory location 0x10001363 strored 0x00
+In memory location 0x10001363 strored 0x00
+In memory location 0x10001363 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 34
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440415
+Execute sw EA-> add 268440415 and 0
+In memory location 0x1000135f strored 0x03
+In memory location 0x1000135f strored 0x00
+In memory location 0x1000135f strored 0x00
+In memory location 0x1000135f strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 35
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =3
+Execute addi 3 and -1
+Memory: No memory operation 
+Writeback: 2 to x5
+Number of clock cycles= 36
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 37
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =3
+Execute addi 3 and -1
+Memory: No memory operation 
+Writeback: 2 to x10
+Number of clock cycles= 38
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 39
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440415
+Execute addi 268440415 and -8
+Memory: No memory operation 
+Writeback: 268440407 to x2
+Number of clock cycles= 40
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440407
+Execute sw EA-> add 268440407 and 4
+In memory location 0x1000135b strored 0x3c
+In memory location 0x1000135b strored 0x00
+In memory location 0x1000135b strored 0x00
+In memory location 0x1000135b strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 41
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440407
+Execute sw EA-> add 268440407 and 0
+In memory location 0x10001357 strored 0x02
+In memory location 0x10001357 strored 0x00
+In memory location 0x10001357 strored 0x00
+In memory location 0x10001357 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 42
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =2
+Execute addi 2 and -1
+Memory: No memory operation 
+Writeback: 1 to x5
+Number of clock cycles= 43
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 44
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =2
+Execute addi 2 and -1
+Memory: No memory operation 
+Writeback: 1 to x10
+Number of clock cycles= 45
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 46
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440407
+Execute addi 268440407 and -8
+Memory: No memory operation 
+Writeback: 268440399 to x2
+Number of clock cycles= 47
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440399
+Execute sw EA-> add 268440399 and 4
+In memory location 0x10001353 strored 0x3c
+In memory location 0x10001353 strored 0x00
+In memory location 0x10001353 strored 0x00
+In memory location 0x10001353 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 48
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440399
+Execute sw EA-> add 268440399 and 0
+In memory location 0x1000134f strored 0x01
+In memory location 0x1000134f strored 0x00
+In memory location 0x1000134f strored 0x00
+In memory location 0x1000134f strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 49
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =1
+Execute addi 1 and -1
+Memory: No memory operation 
+Writeback: 0 to x5
+Number of clock cycles= 50
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 1
+Memory: bge mux INC select and pc: 52
+Writeback: Nothing to write 
+Number of clock cycles= 51
+
+Fetch instruction 0xFFF50513 from address 0x34 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x10
+Read registers x10 =1
+Execute addi 1 and -1
+Memory: No memory operation 
+Writeback: 0 to x10
+Number of clock cycles= 52
+
+Fetch instruction 0xFDDFF0EF from address 0x38 ## 	
+
+Decode: Operation is jal
+ Jump: -36
+ Return register x1
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 60 and pc: 20
+Writeback: 60 to x1
+Number of clock cycles= 53
+
+Fetch instruction 0xFF810113 from address 0x14 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:-8
+Destination register: x2
+Read registers x2 =268440399
+Execute addi 268440399 and -8
+Memory: No memory operation 
+Writeback: 268440391 to x2
+Number of clock cycles= 54
+
+Fetch instruction 0x00112223 from address 0x18 ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 4
+ Destination register x1
+Read registers x2 =268440391
+Execute sw EA-> add 268440391 and 4
+In memory location 0x1000134b strored 0x3c
+In memory location 0x1000134b strored 0x00
+In memory location 0x1000134b strored 0x00
+In memory location 0x1000134b strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 55
+
+Fetch instruction 0x00A12023 from address 0x1c ## 	
+
+Decode: Operation is sw
+ First operand x2, Offset 0
+ Destination register x10
+Read registers x2 =268440391
+Execute sw EA-> add 268440391 and 0
+In memory location 0x10001347 strored 0x00
+In memory location 0x10001347 strored 0x00
+In memory location 0x10001347 strored 0x00
+In memory location 0x10001347 strored 0x00
+Writeback: Nothing to write 
+Number of clock cycles= 56
+
+Fetch instruction 0xFFF50293 from address 0x20 ## 	
+
+Decode: Operation is addi
+First operand: x10
+Immediate value:-1
+Destination register: x5
+Read registers x10 =0
+Execute addi 0 and -1
+Memory: No memory operation 
+Writeback: -1 to x5
+Number of clock cycles= 57
+
+Fetch instruction 0x0002D863 from address 0x24 ## 	
+
+Decode: Operation is bge
+First operand: x5
+Second operand: x0
+Immediate value: 16
+Execute bge if 1->True if 0->False. The decision is: 0
+Memory: bge mux INC select and pc: 40
+Writeback: Nothing to write 
+Number of clock cycles= 58
+
+Fetch instruction 0x000585B3 from address 0x28 ## 	
+
+Decode: Operation is add
+First operand: x11
+Second operand: x0
+Destination register: x11
+Read registers x11 =1	 x0 =0
+Execute add 1 and 0
+Memory: No memory operation 
+Writeback: 1 to x11
+Number of clock cycles= 59
+
+Fetch instruction 0x00810113 from address 0x2c ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440391
+Execute addi 268440391 and 8
+Memory: No memory operation 
+Writeback: 268440399 to x2
+Number of clock cycles= 60
+
+Fetch instruction 0x00008067 from address 0x30 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 52
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 61
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =1
+Execute addi 1 and 0
+Memory: No memory operation 
+Writeback: 1 to x7
+Number of clock cycles= 62
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440399
+Execute lw EA -> add 268440399 and 0
+Memory: lw in x10 from memory address 4943
+Writeback: 1 to x10
+Number of clock cycles= 63
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440399
+Execute lw EA -> add 268440399 and 4
+Memory: lw in x1 from memory address 4947
+Writeback: 60 to x1
+Number of clock cycles= 64
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440399
+Execute addi 268440399 and 8
+Memory: No memory operation 
+Writeback: 268440407 to x2
+Number of clock cycles= 65
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =1	 x10 =1
+Execute mul 1 and 1
+Memory: No memory operation 
+Writeback: 1 to x11
+Number of clock cycles= 66
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 67
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =1
+Execute addi 1 and 0
+Memory: No memory operation 
+Writeback: 1 to x7
+Number of clock cycles= 68
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440407
+Execute lw EA -> add 268440407 and 0
+Memory: lw in x10 from memory address 4951
+Writeback: 2 to x10
+Number of clock cycles= 69
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440407
+Execute lw EA -> add 268440407 and 4
+Memory: lw in x1 from memory address 4955
+Writeback: 60 to x1
+Number of clock cycles= 70
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440407
+Execute addi 268440407 and 8
+Memory: No memory operation 
+Writeback: 268440415 to x2
+Number of clock cycles= 71
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =1	 x10 =2
+Execute mul 1 and 2
+Memory: No memory operation 
+Writeback: 2 to x11
+Number of clock cycles= 72
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 73
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =2
+Execute addi 2 and 0
+Memory: No memory operation 
+Writeback: 2 to x7
+Number of clock cycles= 74
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440415
+Execute lw EA -> add 268440415 and 0
+Memory: lw in x10 from memory address 4959
+Writeback: 3 to x10
+Number of clock cycles= 75
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440415
+Execute lw EA -> add 268440415 and 4
+Memory: lw in x1 from memory address 4963
+Writeback: 60 to x1
+Number of clock cycles= 76
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440415
+Execute addi 268440415 and 8
+Memory: No memory operation 
+Writeback: 268440423 to x2
+Number of clock cycles= 77
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =2	 x10 =3
+Execute mul 2 and 3
+Memory: No memory operation 
+Writeback: 6 to x11
+Number of clock cycles= 78
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 79
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =6
+Execute addi 6 and 0
+Memory: No memory operation 
+Writeback: 6 to x7
+Number of clock cycles= 80
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440423
+Execute lw EA -> add 268440423 and 0
+Memory: lw in x10 from memory address 4967
+Writeback: 4 to x10
+Number of clock cycles= 81
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440423
+Execute lw EA -> add 268440423 and 4
+Memory: lw in x1 from memory address 4971
+Writeback: 60 to x1
+Number of clock cycles= 82
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440423
+Execute addi 268440423 and 8
+Memory: No memory operation 
+Writeback: 268440431 to x2
+Number of clock cycles= 83
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =6	 x10 =4
+Execute mul 6 and 4
+Memory: No memory operation 
+Writeback: 24 to x11
+Number of clock cycles= 84
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 85
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =24
+Execute addi 24 and 0
+Memory: No memory operation 
+Writeback: 24 to x7
+Number of clock cycles= 86
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440431
+Execute lw EA -> add 268440431 and 0
+Memory: lw in x10 from memory address 4975
+Writeback: 5 to x10
+Number of clock cycles= 87
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440431
+Execute lw EA -> add 268440431 and 4
+Memory: lw in x1 from memory address 4979
+Writeback: 60 to x1
+Number of clock cycles= 88
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440431
+Execute addi 268440431 and 8
+Memory: No memory operation 
+Writeback: 268440439 to x2
+Number of clock cycles= 89
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =24	 x10 =5
+Execute mul 24 and 5
+Memory: No memory operation 
+Writeback: 120 to x11
+Number of clock cycles= 90
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 91
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =120
+Execute addi 120 and 0
+Memory: No memory operation 
+Writeback: 120 to x7
+Number of clock cycles= 92
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440439
+Execute lw EA -> add 268440439 and 0
+Memory: lw in x10 from memory address 4983
+Writeback: 6 to x10
+Number of clock cycles= 93
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440439
+Execute lw EA -> add 268440439 and 4
+Memory: lw in x1 from memory address 4987
+Writeback: 60 to x1
+Number of clock cycles= 94
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440439
+Execute addi 268440439 and 8
+Memory: No memory operation 
+Writeback: 268440447 to x2
+Number of clock cycles= 95
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =120	 x10 =6
+Execute mul 120 and 6
+Memory: No memory operation 
+Writeback: 720 to x11
+Number of clock cycles= 96
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =60
+Execute jalr pc-> add 60 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 97
+
+Fetch instruction 0x00058393 from address 0x3c ## 	
+
+Decode: Operation is addi
+First operand: x11
+Immediate value:0
+Destination register: x7
+Read registers x11 =720
+Execute addi 720 and 0
+Memory: No memory operation 
+Writeback: 720 to x7
+Number of clock cycles= 98
+
+Fetch instruction 0x00012503 from address 0x40 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:0
+Destination register: x10
+Read registers x2 =268440447
+Execute lw EA -> add 268440447 and 0
+Memory: lw in x10 from memory address 4991
+Writeback: 7 to x10
+Number of clock cycles= 99
+
+Fetch instruction 0x00412083 from address 0x44 ## 	
+
+Decode: Operation is lw
+First operand: x2
+Immediate value:4
+Destination register: x1
+Read registers x2 =268440447
+Execute lw EA -> add 268440447 and 4
+Memory: lw in x1 from memory address 4995
+Writeback: 16 to x1
+Number of clock cycles= 100
+
+Fetch instruction 0x00810113 from address 0x48 ## 	
+
+Decode: Operation is addi
+First operand: x2
+Immediate value:8
+Destination register: x2
+Read registers x2 =268440447
+Execute addi 268440447 and 8
+Memory: No memory operation 
+Writeback: 268440455 to x2
+Number of clock cycles= 101
+
+Fetch instruction 0x02A385B3 from address 0x4c ## 	
+
+Decode: Operation is mul
+First operand: x7
+Second operand: x10
+Destination register: x11
+Read registers x7 =720	 x10 =7
+Execute mul 720 and 7
+Memory: No memory operation 
+Writeback: 5040 to x11
+Number of clock cycles= 102
+
+Fetch instruction 0x00008067 from address 0x50 ## 	
+
+Decode: Operation is jalr
+First operand: x1
+Immediate value:0
+Destination register: x0
+Read registers x1 =16
+Execute jalr pc-> add 16 and 0
+Memory: jalr in mux Y : 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 103
+
+Fetch instruction 0x0440006F from address 0x10 ## 	
+
+Decode: Operation is jal
+ Jump: 68
+ Return register x0
+
+Execute jal no Execute operation 
+Memory: jalin mux Y : 20 and pc: 84
+Writeback: nothing to write as x0 can't be modified 
+Number of clock cycles= 104
+
